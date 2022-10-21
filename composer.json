@@ -1,0 +1,12 @@
+{
+  "name": "yoopies/dd-trace-polyfill-php",
+  "description": "Polyfill for the Datadog dd-trace PHP extension",
+  "keywords": [ "datadog", "polyfill" ],
+  "license": "MIT",
+  "type": "library",
+  "autoload": {
+    "files": [
+      "src/DDTrace.php"
+    ]
+  }
+}
