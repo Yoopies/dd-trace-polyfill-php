@@ -11,7 +11,7 @@ if (extension_loaded('ddtrace')) {
 }
 ```
 
-This package is a polyfill re-declaring all the functions provided by Sqreen when the extension is not installed. In other words, after installing this polyfill you can rely on the function to exist:
+This package is a polyfill re-declaring all the functions provided by Datadog when the extension is not installed. In other words, after installing this polyfill you can rely on the function to exist:
 
 ```php
 $span = \DDTrace\active_span();
