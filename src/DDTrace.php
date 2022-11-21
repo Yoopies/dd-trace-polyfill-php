@@ -27,4 +27,8 @@ if (!extension_loaded('ddtrace')) {
     function trace_id()
     {
     }
+    
+    function trace_method()
+    {
+    }
 }
