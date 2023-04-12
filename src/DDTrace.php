@@ -27,8 +27,12 @@ if (!extension_loaded('ddtrace')) {
     function trace_id()
     {
     }
-    
+
     function trace_method()
+    {
+    }
+
+    function set_user($userId, $metadata = [], $propagate = false)
     {
     }
 }

@@ -6,7 +6,8 @@
   "type": "library",
   "autoload": {
     "files": [
-      "src/DDTrace.php"
+      "src/DDTrace.php",
+      "src/DDAppsec.php"
     ]
   }
 }
