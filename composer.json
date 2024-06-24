@@ -4,6 +4,9 @@
   "keywords": [ "datadog", "polyfill" ],
   "license": "MIT",
   "type": "library",
+  "require": {
+    "php": ">=7.4"
+  },
   "autoload": {
     "files": [
       "src/DDTrace.php",

@@ -4,7 +4,7 @@ namespace DDTrace;
 
 if (!extension_loaded('ddtrace')) {
 
-    function add_global_tag($key, $value)
+    function add_global_tag(string $key, string $value)
     {
     }
 
@@ -16,11 +16,11 @@ if (!extension_loaded('ddtrace')) {
     {
     }
 
-    function start_span()
+    function start_span(float $startTime = 0)
     {
     }
 
-    function close_span()
+    function close_span(float $finishTime = 0)
     {
     }
 
@@ -28,11 +28,17 @@ if (!extension_loaded('ddtrace')) {
     {
     }
 
-    function trace_method()
+    /**
+     * @param \Closure|array|null $tracingClosureOrConfigArray
+     */
+    function trace_method(
+        string $className,
+        string $methodName,
+        $tracingClosureOrConfigArray = null)
     {
     }
 
-    function set_user($userId, $metadata = [], $propagate = false)
+    function set_user(string $userId, array $metadata = [], ?bool $propagate = null)
     {
     }
 }
